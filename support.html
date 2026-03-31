@@ -15,6 +15,9 @@
         a { color: #4a9eff; text-decoration: none; }
         a:hover { text-decoration: underline; }
         .email { font-size: 18px; }
+        .faq-item { background: #242424; border-radius: 12px; padding: 16px; margin-bottom: 12px; }
+        .faq-item strong { display: block; color: #ffffff; margin-bottom: 6px; font-size: 15px; }
+        .faq-item span { color: #aaa; font-size: 14px; line-height: 1.5; }
         .links { margin-top: 32px; padding-top: 24px; border-top: 1px solid #333; }
         .links a { display: block; margin-bottom: 8px; }
     </style>
@@ -32,10 +35,26 @@
         <p>To manage, cancel, or restore your Okio Pro subscription, go to Settings on your iPhone, tap your name, then Subscriptions.</p>
 
         <h2>Frequently Asked Questions</h2>
-        <p><strong>Is my voice recorded or stored?</strong><br>No. Your voice is converted to text on your device using Apple's speech recognition. Audio is never recorded or stored by Okio.</p>
-        <p><strong>How does AI work in Okio?</strong><br>After your voice is transcribed, the text is sent to an AI service to extract individual tasks. Only text is sent — never your voice audio. No data is stored externally.</p>
-        <p><strong>Is my data stored on a server?</strong><br>No. All your tasks are stored locally on your device. Nothing is uploaded to any server.</p>
-        <p><strong>What is the free tier limit?</strong><br>Free users get 5 voice dumps per day with full access to all features. Okio Pro removes this limit for unlimited voice dumps.</p>
+
+        <div class="faq-item">
+            <strong>Is my voice recorded or stored?</strong>
+            <span>No. Your voice is converted to text on your device using Apple's speech recognition. Audio is never recorded or stored by Okio.</span>
+        </div>
+
+        <div class="faq-item">
+            <strong>How does AI work in Okio?</strong>
+            <span>After your voice is transcribed, the text is sent to an AI service to extract individual tasks. Only text is sent — never your voice audio. No data is stored externally.</span>
+        </div>
+
+        <div class="faq-item">
+            <strong>Is my data stored on a server?</strong>
+            <span>No. All your tasks are stored locally on your device. Nothing is uploaded to any server.</span>
+        </div>
+
+        <div class="faq-item">
+            <strong>What is the free tier limit?</strong>
+            <span>Free users get 5 voice dumps per day with full access to all features. Okio Pro removes this limit for unlimited voice dumps.</span>
+        </div>
 
         <div class="links">
             <a href="privacy">Privacy Policy</a>
