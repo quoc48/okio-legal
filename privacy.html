@@ -40,10 +40,11 @@
     </ul>
 
     <h2>Voice Processing</h2>
-    <p>Okio uses Apple's on-device speech recognition (SFSpeechRecognizer) to convert your voice into text.</p>
+    <p>Okio uses Apple's speech recognition (SFSpeechRecognizer) to convert your voice into text. Audio may be processed by Apple's speech services, similar to Siri.</p>
     <ul>
-        <li>Voice audio is processed entirely on your device</li>
-        <li>Audio is never recorded, stored, or sent to any server</li>
+        <li>Voice audio is never recorded or stored by Okio</li>
+        <li>Audio is never sent to any third-party server by Okio</li>
+        <li>Apple's speech services may process audio as part of the system speech recognition (same as Siri and Dictation)</li>
         <li>Only the transcribed text is used for task extraction</li>
     </ul>
 
